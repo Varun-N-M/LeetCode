@@ -12,7 +12,7 @@ var isAnagram = function(s, t) {
     }
         
 
-    for (var i = 0; i < s.length; i++)
+    for (let i = 0; i < s.length; i++)
         if (s[i] !== t[i]){
             return false;
         }
